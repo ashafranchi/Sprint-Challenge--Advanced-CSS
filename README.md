@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+A fully responsive website uses relative sizing on fonts and such, while an adaptive website uses pixels. Both of these designs have breakpoints and work on different types of screens, but a fully responsive website is prettier and more accessible across screens.
 
 2. Describe what it means to be mobile first vs desktop first.
+Mobile first means designing the front-end with mobile users in mind first. Desktop first starts with desktop users. Designers use different workflows depending on where they work.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+It sets font size to 62.5% of the standard 16px, so the font size becomes 10px. Then, rem is in context of the units, so for example, 1.5rem equal 15px.
 
 4. How would you describe preprocessing to someone new to CSS?
+It is a way of adding complexity to CSS in organized manner by utilizing nesting and escaping.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+I like mix-ins. They make complicated designs and flexboxes easy to keep track of while coding.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -55,13 +60,13 @@ Follow these steps to set up your project:
 - [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your project manager as a reviewer on the pull-request
+- [x] Your project manager will count the project as complete by merging the branch back into master.
  
 
 ### Preprocessor Set up
@@ -126,7 +131,7 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Build a page of your choosing from the navigation items. Come up with content and images that fit the theme.
+* [x] Build a page of your choosing from the navigation items. Come up with content and images that fit the theme.
 
 * [ ] Introduce CSS animations to your site.
 
